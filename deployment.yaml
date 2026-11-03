@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: main
-        image: gcr.io/heap-docker-reg/guestbook:v3
+       image: nginx:alpine
         ports:
         - containerPort: 3000
 ---
